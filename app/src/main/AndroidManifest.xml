@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emergencyhospitalfinder">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_round_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_rectangular_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BloodBankThanaUserActivity"></activity>
+        <activity android:name=".BloodBankDistrictUserActivity" />
+        <activity android:name=".BloodBankUserHomeActivity" />
+        <activity android:name=".AmbulanceThanaUserActivity" />
+        <activity android:name=".AmbulanceDistrictUserActivity" />
+        <activity android:name=".AmbulanceUserHomeActivity" />
+        <activity android:name=".HospitalThanaUserActivity" />
+        <activity android:name=".HospitalDistrictUserActivity" />
+        <activity android:name=".HospitalUserHomeActivity" />
+        <activity android:name=".BloodBankRequestPendingActivity" />
+        <activity android:name=".BloodBankSuperAdminActivity" />
+        <activity android:name=".BloodBankAdminHomeActivity" />
+        <activity android:name=".BloodBankAdminSignInActivity" />
+        <activity android:name=".BloodBankAdminRegisterActivity" />
+        <activity android:name=".AmbulanceAdminHomeActivity" />
+        <activity android:name=".AmbulanceRequestPendingActivity" />
+        <activity android:name=".AmbulanceSuperAdminActivity" />
+        <activity android:name=".AmbulanceAdminRegisterActivity" />
+        <activity android:name=".AmbulanceAdminSignInActivity" />
+        <activity android:name=".HospitalRequestPendingActivity" />
+        <activity android:name=".HospitalDetailsUserActivity" />
+        <activity android:name=".HospitalAdminHomeActivity" />
+        <activity android:name=".AdminSignInActivity" />
+        <activity android:name=".AdminRegisterActivity" />
+        <activity android:name=".SuperAdminActivity" />
+        <activity android:name=".RegisterActivity2" />
+        <activity android:name=".BloodBankUserActivity" />
+        <activity android:name=".addbloodbankdata" />
+        <activity android:name=".AdminBloodBankActivity" />
+        <activity android:name=".AmbulanceUserActivity" />
+        <activity android:name=".addambulancedata" />
+        <activity android:name=".AdminAmbulanceActivity" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".adddata" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".AboutDevelopers" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity16"
+            android:label="@string/title_activity_maps16" />
+        <activity
+            android:name=".MapsActivity15"
+            android:label="@string/title_activity_maps15" />
+        <activity
+            android:name=".MapsActivity14"
+            android:label="@string/title_activity_maps14" />
+        <activity
+            android:name=".MapsActivity13"
+            android:label="@string/title_activity_maps13" />
+        <activity
+            android:name=".MapsActivity12"
+            android:label="@string/title_activity_maps12" />
+        <activity
+            android:name=".MapsActivity11"
+            android:label="@string/title_activity_maps11" />
+        <activity
+            android:name=".MapsActivity10"
+            android:label="@string/title_activity_maps10" />
+        <activity
+            android:name=".MapsActivity9"
+            android:label="@string/title_activity_maps9" />
+        <activity
+            android:name=".MapsActivity8"
+            android:label="@string/title_activity_maps8" />
+        <activity
+            android:name=".MapsActivity7"
+            android:label="@string/title_activity_maps7" />
+        <activity
+            android:name=".MapsActivity6"
+            android:label="@string/title_activity_maps6" />
+        <activity
+            android:name=".MapsActivity5"
+            android:label="@string/title_activity_maps5" />
+        <activity
+            android:name=".MapsActivity4"
+            android:label="@string/title_activity_maps4" />
+        <activity
+            android:name=".HospitalMapsActivity"
+            android:label="@string/title_activity_hospital_maps" />
+        <activity
+            android:name=".MapsActivity3"
+            android:label="@string/title_activity_maps3" />
+        <activity android:name=".Bood_Bank_Activity" />
+        <activity android:name=".Admin_Activity" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".MapsActivity1"
+            android:label="@string/title_activity_maps1" />
+        <activity android:name=".HospitalActivity15" />
+        <activity android:name=".HospitalActivity14" />
+        <activity android:name=".HospitalActivity13" />
+        <activity android:name=".HospitalActivity12" />
+        <activity android:name=".HospitalActivity11" />
+        <activity android:name=".HospitalActivity10" />
+        <activity android:name=".HospitalActivity9" />
+        <activity android:name=".HospitalActivity8" />
+        <activity android:name=".HospitalActivity7" />
+        <activity android:name=".HospitalActivity6" />
+        <activity android:name=".HospitalActivity5" />
+        <activity android:name=".HospitalActivity4" />
+        <activity android:name=".HospitalActivity3" />
+        <activity android:name=".HospitalActivity2" />
+        <activity android:name=".HospitalActivity1" />
+        <activity android:name=".FindAmbulanceActivity" />
+        <activity android:name=".BedBookingActivity" />
+        <activity android:name=".NearestHospitalActivity" />
+        <activity android:name=".AllHospitalActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/HospitalTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

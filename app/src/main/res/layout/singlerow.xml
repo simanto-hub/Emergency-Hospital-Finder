@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:elevation="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg8">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:textStyle="bold"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:text="Evercare Hospital Dhaka (Apollo Hospital)"
+                    />
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="Address:"
+            />
+
+
+        <TextView
+            android:layout_marginTop="120dp"
+            android:id="@+id/t2"
+            android:layout_marginLeft="3dp"
+            android:textStyle="bold"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="Dhaka"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="2dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="260sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_marginLeft="250dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Seat"
+                android:textSize="20dp"
+                android:textColor="#ffffff">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:layout_marginLeft="42dp"
+                android:textStyle="bold"
+
+                android:textColor="#EBF304"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="260sp"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_marginLeft="250dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:text="ICU Seat"
+                android:textSize="20dp"
+                android:textColor="#ffffff">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:layout_marginLeft="42dp"
+                android:textStyle="bold"
+                android:textColor="#EBF304"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

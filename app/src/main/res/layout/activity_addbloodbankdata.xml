@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg10"
+    tools:context=".addbloodbankdata">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"/>
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Blood Bank Name"
+        android:textSize="25sp"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"/>
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:layout_gravity="center"
+        android:hint="Enter Address"
+        android:textSize="25sp"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"/>
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:layout_gravity="center"
+        android:hint="Enter Phone Number"
+        android:textSize="25sp"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t4"
+        android:layout_gravity="center"
+        android:hint="Enter District"
+        android:textSize="25sp"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t5"
+        android:layout_gravity="center"
+        android:hint="Enter Thana"
+        android:textSize="25sp"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/bg6"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+
+            />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:enabled="false"
+            android:onClick="registerUser"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/bg6"
+            android:layout_width="wrap_content"
+            android:textColor="#80ffffff"
+            android:layout_height="wrap_content"
+            android:text="Add"
+
+            />
+
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

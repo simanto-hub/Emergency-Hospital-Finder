@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic_hospital_vector"
+            android:title="All Hospitals" />
+
+        <item
+            android:id="@+id/nav_ambulance"
+            android:icon="@drawable/ic_ambulance_vector"
+            android:title="Ambulance Services" />
+
+        <item
+            android:id="@+id/nav_bloodBank"
+            android:icon="@drawable/ic_blood_bank_vector"
+            android:title="Blood Bank" />
+
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_hospital"
+            android:title="Hospital Admin" />
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_local_hospital_24"
+            android:title="Ambulance Admin" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_blood_bank_1"
+            android:title="Blood Bank Admin" />
+
+
+
+        <item
+            android:id="@+id/nav_superAdmin"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Super Admin" />
+
+
+
+    </group>
+</menu>

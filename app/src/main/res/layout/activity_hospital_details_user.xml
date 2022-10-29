@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HospitalDetailsUserActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bg8">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="100dp">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_1"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="25dp"
+                            android:textColor="#ffffff"
+                            android:text="Apollo"
+                            android:textStyle="bold"
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="250dp">
+
+                <ImageView
+                    android:layout_width="141dp"
+                    android:layout_height="137dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:scrollIndicators="top"
+                    android:src="@mipmap/watermark_hospital_icon">
+
+                </ImageView>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+
+            android:textColor="#CC23E8"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Plot # 81, Block # E, Basudhara R/A, Dhaka - 1229"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#FFFCFC"
+            />
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+          android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <Button
+                android:id="@+id/call_btn"
+                android:layout_width="150dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/call_button_round"
+                android:enabled="true"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/website_btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="Website"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/website_btn_round"
+                android:enabled="true"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                >
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                   android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Available Seat"
+                    android:textSize="25dp"
+
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/tv_4"
+                    android:layout_width="60dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:textColor="#F6FF07"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                   android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Available ICU Seat"
+                    android:textSize="25dp"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/tv_5"
+                    android:layout_width="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:textColor="#F6FF07"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

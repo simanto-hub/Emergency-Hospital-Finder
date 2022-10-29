@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#B5619BD5"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/location_search"
+            android:layout_width="314dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:backgroundTint="#ED647E"
+            android:textColorHint="#FFFFFF"
+            android:hint="Write any place name..."
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/search_address"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClick"
+            android:background="#E6133C"
+            android:src="@mipmap/search_icon"/>
+
+    </RelativeLayout>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HospitalMapsActivity"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:id="@+id/second_relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="60dp"
+       android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/nearby_hospitals"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:background="#802B2929"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/hospital_icon_5"/>
+
+        <ImageView
+            android:onClick="onClick"
+            android:id="@+id/nearby_pharmacy"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+           android:layout_marginLeft="150dp"
+            android:background="#802B2929"
+           android:layout_alignParentBottom="true"
+            android:src="@mipmap/pharmacy_icon_2"
+           />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

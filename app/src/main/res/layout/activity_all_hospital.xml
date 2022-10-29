@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".AllHospitalActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#230D27"
+        >
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_marginBottom="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId1"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bg1">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:text="Evercare Hospital Dhaka (Apollo Hospital)"
+                            />
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="10dp"
+                            android:textColor="#ffffff"
+                            android:text="Plot # 81, Block # E, Basudhara R/A, Dhaka - 1229 "
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_marginLeft="270dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="Seat"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff">
+
+                    </TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hospitalSeat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="00"
+                    android:textColor="#ffffff"
+                    android:textSize="40dp">
+
+                </TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bg2">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:text="BIRDEM General Hospital"
+                            />
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="10dp"
+                            android:textColor="#ffffff"
+                            android:text="Shahbag Square, 122 Kazi Nazrul Islam Ave, Dhaka 1000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_marginLeft="270dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="Seat"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff">
+
+                    </TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hospitalSeat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="00"
+                    android:textColor="#ffffff"
+                    android:textSize="40dp">
+
+                </TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId3"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bg3">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:text="Al Helal Specialized Hospital "
+                            />
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="10dp"
+                            android:textColor="#ffffff"
+                            android:text="150 Begum Rokeya Ave, Dhaka "
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:gravity="center"
+                android:layout_marginLeft="270dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="Seat"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff">
+
+                    </TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hospitalSeat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="00"
+                    android:textColor="#ffffff"
+                    android:textSize="40dp">
+
+                </TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+              <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId4"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bg4">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:text="Sir Salimullah Medical College Mitford Hospital "
+                            />
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="10dp"
+                            android:textColor="#ffffff"
+                            android:text="Mitford Rd,Dhaka 1000"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:gravity="center"
+                android:layout_marginLeft="270dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="Seat"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff">
+
+                    </TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hospitalSeat4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="00"
+                    android:textColor="#ffffff"
+                    android:textSize="40dp">
+
+                </TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+              <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId5"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg5">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="City Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="House No#1, 8 Satmasjid Road, Dhaka 1207"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+              <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId6"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg6">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="Asgar Ali Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="Playground, 111/1/A Distillery Road, Gandaria Beside Dhupkhola, Dhaka 1204"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId7"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg7">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="Bangladesh Specialized Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="21 Mirpur Rd,Dhaka-1207"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId8"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg8">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="Central Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="House # 2 Rd No. 5, Dhaka 1205"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId9"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg9">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="Islami Bank Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="Plot No 31, Main Road 3,Near Purobi Bus Stop Begum Rokeya sarani, Block-D, Dhaka 1000"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+             <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId10"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg10">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="Holy Family Red Crescent Medical College Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="1 Eskaton Garden Rd, Dhaka 1000"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+             <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId11"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg11">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="Kingston Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="House 51-54, Road 01 and 02,Block-D, Shahidbag Mirpur -12 Dhaka,1216"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+             <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="8dp"
+            android:clickable="true"
+            android:id="@+id/hospitalCardViewId12"
+            android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg12">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:text="Aichi Hospital"
+                        />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textColor="#ffffff"
+                        android:text="Plot- 35 and 37, Sector-08, Abdullahpur Highway Dhaka 1230 "
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Seat"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hospitalSeat12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#ffffff"
+                android:textSize="40dp">
+
+            </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+              <androidx.cardview.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="110dp"
+                  android:clickable="true"
+                  android:id="@+id/hospitalCardViewId13"
+                  android:foreground="?android:attr/selectableItemBackground"
+                  app:cardCornerRadius="8dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="10dp">
+
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:background="@drawable/bg13">
+
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="20dp"
+                          android:layout_marginRight="20dp"
+                          android:layout_marginTop="30dp">
+
+
+
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+                              <TextView
+                                  android:layout_width="250dp"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="20dp"
+                                  android:textColor="#ffffff"
+                                  android:text="Square Hospital"
+                                  />
+
+                              <TextView
+                                  android:layout_width="250dp"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="10dp"
+                                  android:textColor="#ffffff"
+                                  android:text="18/F, Bir Uttam Qazi Nuruzzaman Sarak West, Panthapath, Dhaka 1205"
+                                  />
+
+                          </LinearLayout>
+
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <RelativeLayout
+                      android:layout_width="80dp"
+                      android:gravity="center"
+                      android:layout_marginLeft="270dp"
+                      android:layout_height="match_parent">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:gravity="center"
+                              android:layout_marginTop="20dp"
+                              android:text="Seat"
+                              android:textSize="20dp"
+                              android:textColor="#ffffff">
+
+                          </TextView>
+                      </LinearLayout>
+
+                      <TextView
+                          android:id="@+id/hospitalSeat13"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_alignParentStart="true"
+                          android:layout_alignParentLeft="true"
+                          android:layout_marginStart="0dp"
+                          android:layout_marginLeft="0dp"
+                          android:layout_marginTop="30dp"
+                          android:gravity="center"
+                          android:text="00"
+                          android:textColor="#ffffff"
+                          android:textSize="40dp">
+
+                      </TextView>
+                  </RelativeLayout>
+              </androidx.cardview.widget.CardView>
+              <androidx.cardview.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="110dp"
+                  app:cardCornerRadius="8dp"
+                  android:clickable="true"
+                  android:id="@+id/hospitalCardViewId14"
+                  android:foreground="?android:attr/selectableItemBackground"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="10dp">
+
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:background="@drawable/bg14">
+
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="20dp"
+                          android:layout_marginRight="20dp"
+                          android:layout_marginTop="30dp">
+
+
+
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+                              <TextView
+                                  android:layout_width="250dp"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="20dp"
+                                  android:textColor="#ffffff"
+                                  android:text="Delta Medical College and Hospital"
+                                  />
+
+                              <TextView
+                                  android:layout_width="250dp"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="10dp"
+                                  android:textColor="#ffffff"
+                                  android:text="26, 2 Darus Salam Rd, Dhaka 1216"
+                                  />
+
+                          </LinearLayout>
+
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <RelativeLayout
+                      android:layout_width="80dp"
+                      android:gravity="center"
+                      android:layout_marginLeft="270dp"
+                      android:layout_height="match_parent">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:gravity="center"
+                              android:layout_marginTop="20dp"
+                              android:text="Seat"
+                              android:textSize="20dp"
+                              android:textColor="#ffffff">
+
+                          </TextView>
+                      </LinearLayout>
+
+                      <TextView
+                          android:id="@+id/hospitalSeat14"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_alignParentStart="true"
+                          android:layout_alignParentLeft="true"
+                          android:layout_marginStart="0dp"
+                          android:layout_marginLeft="0dp"
+                          android:layout_marginTop="30dp"
+                          android:gravity="center"
+                          android:text="00"
+                          android:textColor="#ffffff"
+                          android:textSize="40dp">
+
+                      </TextView>
+                  </RelativeLayout>
+              </androidx.cardview.widget.CardView>
+              <androidx.cardview.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="110dp"
+                  app:cardCornerRadius="8dp"
+                  android:clickable="true"
+                  android:id="@+id/hospitalCardViewId15"
+                  android:foreground="?android:attr/selectableItemBackground"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="10dp">
+
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:background="@drawable/bg15">
+
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="20dp"
+                          android:layout_marginRight="20dp"
+                          android:layout_marginTop="30dp">
+
+
+
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+                              <TextView
+                                  android:layout_width="250dp"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="20dp"
+                                  android:textColor="#ffffff"
+                                  android:text="United Hospital"
+                                  />
+
+                              <TextView
+                                  android:layout_width="250dp"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="10dp"
+                                  android:textColor="#ffffff"
+                                  android:text="Plot # 15 Rd No 71, Dhaka 1212 "
+                                  />
+
+                          </LinearLayout>
+
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <RelativeLayout
+                      android:layout_width="80dp"
+                      android:gravity="center"
+                      android:layout_marginLeft="270dp"
+                      android:layout_height="match_parent">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:gravity="center"
+                              android:layout_marginTop="20dp"
+                              android:text="Seat"
+                              android:textSize="20dp"
+                              android:textColor="#ffffff">
+
+                          </TextView>
+                      </LinearLayout>
+
+                      <TextView
+                          android:id="@+id/hospitalSeat15"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_alignParentStart="true"
+                          android:layout_alignParentLeft="true"
+                          android:layout_marginStart="0dp"
+                          android:layout_marginLeft="0dp"
+                          android:layout_marginTop="30dp"
+                          android:gravity="center"
+                          android:text="00"
+                          android:textColor="#ffffff"
+                          android:textSize="40dp">
+
+                      </TextView>
+                  </RelativeLayout>
+              </androidx.cardview.widget.CardView>
+
+
+
+          </LinearLayout>
+
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

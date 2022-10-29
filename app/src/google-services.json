@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "276748379069",
+    "firebase_url": "https://hospital-seat-default-rtdb.firebaseio.com",
+    "project_id": "hospital-seat",
+    "storage_bucket": "hospital-seat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276748379069:android:fbc5530d22e646e11268d4",
+        "android_client_info": {
+          "package_name": "com.example.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276748379069-8bcpke0pse98njtujuovs1lbdj82887i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZwyS890U25pRNNpsH1eipBg7L42yK4G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276748379069-8bcpke0pse98njtujuovs1lbdj82887i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276748379069:android:8b9346769c605edb1268d4",
+        "android_client_info": {
+          "package_name": "com.example.emergencyhospitalfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276748379069-8bcpke0pse98njtujuovs1lbdj82887i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZwyS890U25pRNNpsH1eipBg7L42yK4G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276748379069-8bcpke0pse98njtujuovs1lbdj82887i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
